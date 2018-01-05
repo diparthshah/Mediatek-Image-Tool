@@ -1,0 +1,59 @@
+#############################################################################
+#                          MEDIATEK MULTI IMAGE TOOL                        #
+#                             WINDOWS VERSION                               #
+#                      DIPARTH SHAH diparths@gmail.com                      #
+#                              INSTRUCTIONS                                 # 
+#############################################################################
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+SPECIAL THANKS TO:                                                          $
+-XPIRT AND ALEXEY71 @XDA FOR SYSTEM.IMG AND SDAT2IMG UNPACKING APPLICATION. $
+-VIBHU009 @androidfilehost FOR MTKBOOTIMG TOOLS ZIP.                        $
+-CARLIV @XDA FOR BASIC BACKBONE IDEA.                                       $
+-'TEAM ROGER THAT' FOR TESTING AND EVERYTHING ELSE.                         $
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+++++++++++++++++++++++++++++++++++NOTICE+++++++++++++++++++++++++++++++++++++
+DO NOT MIRROR MY DOWNLOAD LINKS.                                            +
+TOOL IS 100% FREE FOR LEARNING AND DEVELOPMENT USE.                         +
+SUGGESTIONS AND ISSUES CAN BE INFORMED VIA EMAIL.                           +
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THIS TOOL CAN UNPACK AND REPACK boot.img and recovery.img SPECIALLY FOR MTK DEVICES,
+WHICH USES SPECIAL COMPRESSION OF MTK KERNEL HEADERS , TOOL CAN ALSO UNPACK SYSTEM.IMG 
+AND SYSTEM.NEW.DAT UPSTREAM SUPPORTED TO LP AND MM. 
+
+------UNPACKING BOOT.IMG AND RECOVERY.IMG-----
+
+1) PUT YOUR BOOT.IMG IN INPUT FOLDER OF THIS TOOL.
+2) SELECT BOOT IMAGE OPTION FROM MENU.
+3) U CAN UNPACK AND REPACK BOOT.IMG WITH OPTIONS AVAILABLE IN BOOT IMAGE SECTION.
+4) WHILE GOING THROUGH PROCESS U WILL HAVE FOLLOWING QUESTIONS ON PROMPT 
+    A)DOES BOOT/RAMDISK SPECIFY FILE NAME OR DIRECTORY NAME ON THE 
+	  TARGET (F=FILE , D= DIRECTORY). 
+	  
+	  ANSWER : CLICK ON D 
+	  
+	B) initrd , ARE YOU SURE (Y/N) ? 
+	
+	ANSWER : CLICK ON Y 
+
+5) SAME PROCESS FOR RECOVERY.IMG.
+6) YOUR UNPACKED BOOT.IMG/RECOVERY.IMG CONTENT WILL BE IN RESPECTIVE BOOT AND RECOVERY FOLDER CREATED,
+   U CAN MAKE CHANGES ACCORDING TO YOUR NEED AND REPACK THE SAME.  
+7) AFTER REPACKING BOOT.IMG AND RECOVERY.IMG , YOU WILL GET YOUR DESIRED BOOT.IMG/RECOVERY.IMG 
+   IN OUTPUT FOLDER.
+
+-----UNPACKING SYSTEM.IMG-----
+
+1) PUT YOUR SYSTEM.IMG IN INPUT FOLDER AND SELECT UNPACK SYSTEM.IMG FROM MENU.
+2) UNPACKED SYSTEM.IMG WILL BE AVAILABLE IN OUTPUT FOLDER. 
+
+-----UNPACKING SYSTEM.NEW.DAT-----
+
+1) PUT SYSTEM.NEW.DAT AND SYSTEM.TRANSFER.LIST IN INPUT FOLDER AND SELECT UNPACK FROM MENU.
+2) UNPACKED SYSTEM.NEW.DAT WILL BE AVAILABLE IN OUTPUT FOLDER. 
+
+
+
+
